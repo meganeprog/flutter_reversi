@@ -226,6 +226,7 @@ class _GameWidgetState extends State<GameWidget> with TickerProviderStateMixin {
         direction: FlipDirection.HORIZONTAL,
         controller: _stoneFlipControllers[row][column],
         speed: 200,
+        flipOnTouch: false,
         front: Container (
           margin: const EdgeInsets.all(2.0),
           decoration: BoxDecoration(
